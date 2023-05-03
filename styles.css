@@ -1,24 +1,26 @@
 /*  your css code here. If applicable */
-*{
-	margin:0;
-	padding:0;
-}
+
 .card{
-	height:400px;
-	width:300px;
+	height:450px;
+	width:400px;
 	background: #f4f4f6;
-	border:2px solid red;
+
 	display: flex;
+	flex-direction:column;
     align-items: center;
-    justify-content: center;
+
+	border-radius:10px;
+/* 	box-shadow: 2px 1px 9px 1px lightskyblue; */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .item{
-	height:200px;
-	weidth:100px;
-	align-items: center;
-    justify-content: center;
-	border: 1px yellow solid;
+	
+	padding-left:40px;
+	padding-right:40px;
+
+	text-align:center;
 }
 
 button{
@@ -30,6 +32,11 @@ button{
 	font-size:18px;
 	font-weight:bold;
 	background:rgb(237,67,55);
+	cursor:pointer;
+}
+
+button:hover{
+	scale: 1.03;
 }
 
 
