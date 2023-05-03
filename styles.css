@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+}
+.card{
+	height:400px;
+	width:300px;
+	background: #f4f4f6;
+	border:2px solid red;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item{
+	height:200px;
+	weidth:100px;
+	align-items: center;
+    justify-content: center;
+	border: 1px yellow solid;
+}
+
+button{
+	width:100px;
+	height:40px;
+	border-radius:5px;
+	outline:none;
+	color: #fff;
+	font-size:18px;
+	font-weight:bold;
+	background:rgb(237,67,55);
+}
+
+
+
+
+
+
